@@ -58,13 +58,11 @@ Multi-Head Attention: Implements scaled dot-product attention.
 Feed-Forward Network: Applies a two-layer fully connected network with ReLU activation.
 Layer Normalization: Stabilizes training by normalizing intermediate outputs.
 Stacked Transformer Layers: Combines the above components into a transformer block.
-Training:
-
+6) Training:
 Uses backpropagation with the Adam optimizer.
 Minimizes cross-entropy loss between predicted and actual tokens.
 Periodically evaluates the model on validation data.
-Text Generation:
-
+7) Text Generation:
 Implements a generate function to produce text:
 Starts with an initial context.
 Iteratively predicts and appends the next token.
